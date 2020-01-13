@@ -1,4 +1,4 @@
-%include('header_init.tpl', heading='Manage your attributes')
+%include('header_init.tpl', heading='Manage your probabilities')
 
 <h2>List of current probabilities:</h2>
 <table class="table">
