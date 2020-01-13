@@ -1,6 +1,6 @@
 %include('header_init.tpl', heading='Manage your attributes')
 
-<h2>List of current attributes:</h2>
+<h2>List of current probabilities:</h2>
 <table class="table">
     <thead>
         <tr>
