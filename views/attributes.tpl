@@ -22,7 +22,7 @@
 <br />
 
 <div id="add_attribute" style="width:50%;margin-left:25%;margin-bottom:25px;">
-    <h2> Add a new attribute: </h2>
+    <h2> Add a new Probability : </h2>
 	
 	<div id="button_type" style="text-align:center;">
 		<button type="button" class="btn btn-default btn-lg" id="button_Quantitative">Quantitative</button>
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="form-group">
-			<label for="att_unit_quanti">Unit:</label>
+			<label for="att_unit_quanti">Unit: (without unity, enter 0)</label>
 			<input type="text" class="form-control" id="att_unit_quanti" placeholder="Unit">
 		</div>
 		<div class="form-group">
