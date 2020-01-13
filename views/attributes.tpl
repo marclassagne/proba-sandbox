@@ -6,7 +6,7 @@
         <tr>
             <th style='width:50px;'>State</th>
 			<th>Type</th>
-            <th>Attribute name</th>
+            <th>Probability name</th>
             <th>Unit</th>
             <th>Values</th>
             <th>Method</th>
