@@ -2,7 +2,12 @@
 
 <h2>Former students:</h2>
 <ul>
-    <li>Jean Auclair</li>
+    <li>Nomena Randriama</li>
+    <li>Moussa Nasroune</li>
+    <li>Mariam Housni</li>
+    <li>Yuli Liu</li>
+    <li>Pierre Heger</li>
+    <li>Nawres Fekih Ahmed</li>
     <li>Julien Blanchard</li>
     <li>Melek Ben Kedher</li>
     <li>François Bracchi</li>
