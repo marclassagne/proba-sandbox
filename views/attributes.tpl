@@ -25,8 +25,8 @@
     <h2> Add a new Probability : </h2>
 	
 	<div id="button_type" style="text-align:center;">
-		<button type="button" class="btn btn-default btn-lg" id="button_Quantitative">Quantitative</button>
-		<button type="button" class="btn btn-default btn-lg" id="button_Qualitative">Qualitative</button>
+		<button type="button" class="btn btn-default btn-lg" id="button_Quantitative">Discret</button>
+		<button type="button" class="btn btn-default btn-lg" id="button_Qualitative">Continue</button>
 	</div>
 	
     <!------------ FORM FOR A QUANTITATIVE ATTRIBUTE ------------>
