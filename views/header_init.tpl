@@ -59,13 +59,13 @@
                         <a href="{{ get_url('/import') }}"><i class="fa fa-fw fa-download"></i>Import assessment</a>
                     </li>
                     <li class="manage">
-                        <a href="{{ get_url('/attributes') }}"><i class="fa fa-fw fa-pencil"></i>Manage attributes</a>
+                        <a href="{{ get_url('/attributes') }}"><i class="fa fa-fw fa-pencil"></i>Manage your probabilities</a>
                     </li>
                     <li class="questions">
-                        <a href="{{ get_url('/questions') }}"><i class="fa fa-fw fa-user"></i>Utility assessment</a>
+                        <a href="{{ get_url('/questions') }}"><i class="fa fa-fw fa-user"></i>Probability assessment</a>
                     </li>
                     <li class="k">
-                        <a href="{{ get_url('/k_calculus') }}"><i class="fa fa-fw fa-search"></i>Scaling constants</a>
+                        <a href="{{ get_url('/k_calculus') }}"><i class="fa fa-fw fa-search"></i></a>
                     </li>
                     <li class="export">
                         <a href="{{ get_url('/export') }}"><i class="fa fa-fw fa-upload"></i>Export assessment</a>
