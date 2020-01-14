@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/attributes">ASSESS</a>
+                <a class="navbar-brand" href="/attributes">ASSESS PROBA</a>
             </div>
             <!-- Top Menu Items -->
 
