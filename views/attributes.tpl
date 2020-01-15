@@ -47,9 +47,7 @@
 				<option value="PW">Probability Wheel</option>
 			</select>
 		</div>
-		<div class="checkbox">
-			<label><input name="mode" type="checkbox" id="att_mode_quanti" placeholder="Mode"> The min value is preferred (decreasing utility function)</label>
-		</div>
+		
 
 		<button type="submit" class="btn btn-success" id="submit_quanti">Submit</button>
 	</div>
