@@ -468,7 +468,7 @@ $(function() {
 		else {
 			if (edit_mode==false) {
 				assess_session.attributes.push({
-					"type": "Discret",
+					"type": "Continue",
 					"name": name,
 					'unit': '',
 					'val_min': val_min,
@@ -487,7 +487,7 @@ $(function() {
 			} else {
 				if (confirm("Are you sure you want to edit this attribute? All assessements will be deleted") == true) {
 					assess_session.attributes[edited_attribute]={
-						"type": "Qualitative",
+						"type": "Discret",
 						"name": name,
 						'unit': '',
 						'val_min': val_min,
