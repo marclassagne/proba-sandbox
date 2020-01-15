@@ -123,7 +123,7 @@ del_value_med.addEventListener('click', function() {
 
 /// Function that manages the influence of the "button_type" buttons (Quantitative/Qualitative) (just the design : green/white)
 function update_method_button(type){
-	var list_types = ["Quantitative", "Qualitative"];
+	var list_types = ["Discret", "Qualitative"];
 	
 	for(var i=0; i<list_types.length; i++){
 		if(type==list_types[i]){
@@ -140,7 +140,7 @@ function update_method_button(type){
 $(function() {
 	///  ACTION FROM BUTTON QUANTITATIVE
 	$("#button_Quantitative").click(function () {
-		update_method_button("Quantitative"); //update the active type of new attribute
+		update_method_button("Discret"); //update the active type of new attribute
 		$("#form_quali").fadeOut(500);
 		$("#form_quanti").fadeIn(500);
 		window.scrollBy(0, 500);
