@@ -468,7 +468,7 @@ $(function() {
 		else {
 			if (edit_mode==false) {
 				assess_session.attributes.push({
-					"type": "Qualitative",
+					"type": "Discret",
 					"name": name,
 					'unit': '',
 					'val_min': val_min,
