@@ -57,7 +57,7 @@
 							 '<td>' + attribute.type + '</td>'+
 							 '<td>' + attribute.method + '</td>';
 							
-			text_table += '<td><table style="width:100%">;
+			text_table += '<td><table style="width:100%"></td>';
 			
 			if (attribute.method == "GM" || attribute.method == "LE"){
 				text_table += '<tr><td>Probabilité évaluée</td><td>: </td>';
