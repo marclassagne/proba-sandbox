@@ -1,4 +1,4 @@
-%include('header_init.tpl', heading='Assess utility functions')
+%include('header_init.tpl', heading='Assess probabilities')
 <h3 id="attribute_name"></h3>
 
 <div id="select">
@@ -7,8 +7,7 @@
 			<tr>
 				<th>Attribute</th>
 				<th>Type</th>
-				<th>Method</th>
-				<th>Number of assessed points</th>
+				<th>Method</th>				
 				<th>Assess another point</th>
 				<th>Reset assessements</th>
 			</tr>
@@ -56,8 +55,7 @@
 			var attribute = assess_session.attributes[i],
 				text_table = '<tr><td>' + attribute.name + '</td>'+
 							 '<td>' + attribute.type + '</td>'+
-							 '<td>' + attribute.method + '</td>'+
-							 '<td>' + attribute.questionnaire.number + '</td>';
+							 '<td>' + attribute.method + '</td>'+;
 							
 			text_table += '<td><table style="width:100%"><tr><td>' + attribute.val_min + '</td><td> : </td><td>'+(attribute.mode=="Normal"?0:1)+'</td></tr>';
 			
